@@ -5,12 +5,15 @@
   "author": "",
   "license": "MIT",
   "scripts": {
-    "start": "nodemon index.js"
+    "start": "nodemon index.js",
+    "start:prod": "NODE_ENV=production npm run start"
   },
   "devDependencies": {
     "nodemon": "^1.18.10"
   },
   "dependencies": {
-    "googleapis": "27"
+    "express": "^4.16.4",
+    "googleapis": "27",
+    "pug": "^2.0.3"
   }
 }
